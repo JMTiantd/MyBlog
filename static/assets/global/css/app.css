@@ -1,0 +1,46 @@
+.bg-white {
+    color: #58666e;
+    background-color: #fff;
+}
+
+.wrapper {
+    padding: 15px;
+}
+
+.b-a {
+    border: 1px solid #dee5e7;
+}
+
+.r-3x {
+    border-radius: 6px;
+}
+
+.tinno-rotate {
+    display: block;
+    background: url(../img/tinno-rotate.png) no-repeat center;
+    width: 29px;
+    height: 11px;
+    margin: 0 auto;
+}
+
+.tinno-common-rotate {
+    -webkit-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+
+.tinno-line {
+    width: 100%;
+    margin-top: 9px;
+    margin-bottom: 5px;
+    border-color: #e2e2e2;
+}
+
+.more-info-border {
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+}
+
+.requirement-table {
+    margin-bottom: 0px;
+}

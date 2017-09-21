@@ -1,0 +1,53 @@
+/*登录注册容器*/
+.access-container{
+	background: #fff;
+	border: 2px solid #e8e8e8;
+	border-radius: 10px;
+}
+
+/*登录注册头部语言选择*/
+.access-header{
+	padding: 0 50px;
+}
+
+.access-header-line{
+	padding-left: 0!important;
+	padding-right: 0!important;
+}
+
+.float-left{
+	float: left;
+}
+
+.float-right{
+	float: right;
+}
+
+.form-relative{
+	position: relative;
+}
+
+/*提交后提示信息*/
+.submit-tips{
+	word-break: normal;
+	min-height: 33px;
+}
+.submit-tips p{
+	padding: 0;
+	margin: 0;
+}
+
+
+/*验证码图片*/
+.ver-code-img{
+	height: 100%;
+	width: 100%;
+}
+
+/*忘记密码*/
+.forgot-link{
+	cursor: pointer;
+}
+.forgot-link:hover{
+	color: #000;
+}

@@ -1,0 +1,87 @@
+
+.jq-grid-wrapper{
+}
+
+.ui-jqgrid .table{
+	padding: 0;
+	margin: 0;
+}
+
+/*单元格左右边框*/
+.ui-jqgrid tr,
+.ui-jqgrid th,
+.ui-jqgrid td{
+	border-left: none!important;
+	border-right: none!important;
+}
+
+/*页面输入框*/
+.ui-jqgrid .ui-pg-input.form-control{
+	display: inline-block;
+	width: 60px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+/*页面第一页*/
+.jqgfirstrow{
+	height: auto;
+}
+.jqgfirstrow td{
+	padding: 0!important;
+	margin: 0!important;
+}
+
+/*分页栏样式*/
+@media only screen and (min-width: 690px) {
+	.ui-pager-table>tbody>tr{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	.ui-pager-table>tbody>tr>td{
+		border: none;
+		width: auto!important;
+	}
+}
+
+@media only screen and (max-width: 690px) {
+	.ui-pager-table>tbody>tr{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+	
+	.ui-pager-table>tbody>tr>td{
+		border: none;
+		width: auto!important;
+		padding: 0!important;
+	}
+}
+
+.ui-paging-pager td{
+	padding: 0 5px;
+}
+
+.ui-paging-pager td.ui-pg-button{
+	padding: 5px;
+}
+
+/*表列头样式*/
+.table-bordered > thead > tr > th{
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+/*文字上下居中*/
+.table > tbody > tr > td, 
+.table > tfoot > tr > td{
+	vertical-align: middle;
+	font-size: 16px;
+	line-height: 40px;
+}
+
+
