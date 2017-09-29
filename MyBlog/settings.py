@@ -1,3 +1,6 @@
+# -*- coding:utf-8 -*-
+__author__ = 'wuming.wang'
+
 """
 Django settings for MyBlog project.
 
@@ -133,3 +136,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# 自定义配置项
+CONTEXT_PATH = 'myblog'
