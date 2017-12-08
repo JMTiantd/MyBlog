@@ -15,21 +15,21 @@
     border-radius: 6px;
 }
 
-.tinno-rotate {
+.wm-rotate {
     display: block;
-    background: url(../img/tinno-rotate.png) no-repeat center;
+    background: url(../img/wm-rotate.png) no-repeat center;
     width: 29px;
     height: 11px;
     margin: 0 auto;
 }
 
-.tinno-common-rotate {
+.wm-common-rotate {
     -webkit-transform: rotate(-180deg);
     -ms-transform: rotate(-180deg);
     transform: rotate(-180deg);
 }
 
-.tinno-line {
+.wm-line {
     width: 100%;
     margin-top: 9px;
     margin-bottom: 5px;

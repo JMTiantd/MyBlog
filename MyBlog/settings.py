@@ -81,7 +81,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'myblog',
         'USER': 'root',
-        'PASSWORD': '291253',
+        'PASSWORD': 'xxxxxx',
         'HOST': '127.0.0.1',
         'PORT': '3306'
     }
@@ -139,3 +139,8 @@ STATIC_URL = '/static/'
 
 # 自定义配置项
 CONTEXT_PATH = 'myblog'
+
+STATIC_URL = '/static/'
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
